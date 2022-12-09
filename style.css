@@ -1,0 +1,161 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.clear{
+    overflow: hidden;
+}
+.topber{
+    background-color: powderblue;
+  
+}
+.container{
+    width: 100%;
+    margin: auto;
+}
+.contact-info{
+    float: left;
+    width: 70%;
+}
+.contact-info a{
+    text-decoration: none;
+    color: brown;
+    font-size: 18px;
+}
+.contact-info i{
+     padding: 5px;
+}
+.social-info{
+    float: right;
+    width: 20%;
+}
+
+.social-info a{
+    text-decoration: none;
+    color: brown;
+    font-size: 18px;
+}
+    
+.social-info i{
+    padding: 5px;
+}
+.header{}
+.logo{
+    float: left;
+    width: 20%;
+
+}
+.logo img{
+    height: 100px;
+    width: 200px;
+    padding: 0px;
+
+}
+.navber{
+    float: right;
+    width: 70%;
+}
+.navber a{
+    text-decoration: none;
+    color: brown;
+    font-size: 18px;
+    float: left;
+    padding: 40px;
+}
+.dropdown{
+    float: left;
+}
+.dropdown .btn-dropdown{
+    border: none;
+    outline: none;
+    color: brown;
+    background-color: inherit;
+    font-family: inherit;
+    font-size: 18px;
+    padding: 40px 16px;
+
+}
+.dropdown-content{
+    display: none;
+    position: absolute;
+    background-color: white;
+    width: 200px;
+}
+.dropdown-content a{
+    color: brown;
+    float: none;
+    font-size: 18px;
+    display: block;
+    text-align: left;
+    text-decoration: none;
+    padding: 8px 16px;
+
+}
+.dropdown:hover .dropdown-content{
+    display: block;
+}
+.dropdown-content a:hover{
+    background-color: cadetblue;
+}
+.slider img{
+    height: 500px;
+    width: 100%;
+}
+.heading h1{
+    letter-spacing: 8px;
+    text-transform: uppercase;
+    text-align: center;
+    color: brown;
+}
+.about-text{
+    width: 52%;
+    float: left;
+    padding-left: 4px;
+}
+.about-text p{
+    font-size: 18px;
+    line-height: 20px;
+}
+.btn-about{
+    text-decoration: none;
+    border-radius: 10px;
+    background-color: brown;
+    color: white;
+    padding: 10px;
+}
+.about-image{
+    float: right;
+    width: 45%;
+}
+.service{
+    float: left;
+    width: 230px;
+    border: 1px solid brown;
+    margin:8px;
+    padding: 10px;
+    text-align: center;
+    background-color: aliceblue;
+   
+}
+.service:hover{
+    border-radius: 50px 20px;
+    background-color: brown;
+    color: white;
+    transition: .8s;
+}
+.service:hover i{
+    color: white;
+}
+.service i{
+    font-size: 60px;
+    color: brown;
+    
+}
+.btn-service{
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+    border-radius: 10px;
+    background-color: brown;
+
+}
